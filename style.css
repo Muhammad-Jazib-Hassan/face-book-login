@@ -1,0 +1,609 @@
+body{
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container-first{
+    position: fixed;
+    top: 15%;
+    left: 21%;
+}
+.container-first > h1{
+    color: #1877F2;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+}
+.container-first > p{
+    font-size: 30px;
+    font-family: sans-serif; 
+}
+.left-container{
+
+    position: absolute;
+    top: 13%; 
+    left: 55%;
+    width: 410px;
+    height: 368px;
+    background-color: white;
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 2px rgb(209, 204, 204); */
+    box-shadow: -1px -1px 22px -1px rgba(0,0,0,0.09);
+    -webkit-box-shadow: -1px -1px 22px -1px rgba(0,0,0,0.09);
+    -moz-box-shadow: -1px -1px 22px -1px rgba(0,0,0,0.09);
+}
+
+.box1 > input{
+    /* margin: 10px; */
+    margin-top: 18px;
+    margin-left: 18px;
+    padding: 20px;
+    width: 331px;
+    border-radius: 5px;
+    border: 1px solid rgb(177, 175, 175);
+    outline-color: #6ea7f1;
+    /* box-shadow: 1px 1px 2px #1877F2; */
+    font-size: 15px;
+    outline-offset: 1px;
+   
+ 
+}
+
+.link1{
+    text-align: center;
+    margin-top: 15px;
+    /* border: 2px solid #1877F2; */
+    margin-left: 18px;
+    padding: 18px;
+    width: 331px;
+    border-radius: 5px;
+    background-color: #1877F2;
+    height: 15px;
+    cursor: pointer;
+   
+}
+.link1:hover{
+
+    background-color: #0069f3;
+
+
+}
+
+
+.login{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+.link2{
+    margin-top: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.passcode{
+    text-decoration: none;
+    color: #1877F2;
+    
+}
+
+.link2:hover{
+
+    text-decoration: underline;
+
+}
+
+.link3{
+    text-align: center;
+    margin-top: 15px;
+    /* border: 2px solid #36A420; */
+    margin-left: 95px;
+    padding: 18px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: #5db44b;
+    height: 15px;
+    cursor: pointer;
+}
+
+.link3:hover{
+    background-color: #36A420;
+}
+
+.link3 > a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    
+}  
+
+.container-third{
+   position: absolute;
+   top: 55%;
+   left: 58%;
+   font-family: sans-serif;
+  
+}
+
+.container-third > a{
+    color: black;
+    text-decoration: none;
+
+
+}
+
+.container-third > a:hover{
+    text-decoration: underline;
+}
+
+.container-fourth{
+    position: absolute;
+    top: 80%;
+    height: 20%;
+    width: 100%;
+    background-color: white;
+}
+
+.language{
+    position: absolute;
+    left: 20%;
+    margin: 25px;
+    
+}
+.language > a{
+   
+    text-decoration: none;
+    cursor: pointer;
+    color: #8A8D91;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 40%;
+    
+    
+}
+
+.language > a:hover{
+    text-decoration: underline;
+}
+.plus{
+    width: 30px;
+    cursor: pointer;
+}
+
+.end{
+    position: absolute;
+    left: 21.5%;
+    top: 70%;
+    color: #8A8D91;
+
+
+}
+
+.blue{
+    /* text-align: center; */
+    /* margin-top: 20px; */
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    color: #1877F2;
+    position: fixed;
+    left: 45%;
+    margin-top: -20px;
+}
+.container-bottom{
+    background-color: white;
+    position: fixed;
+    /* text-align: center; */
+    height: 600px;
+    width: 420px;
+    left: 39%;
+    top: 9%;
+    align-content: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: -1px -1px 22px -1px rgba(0,0,0,0.09);
+    -webkit-box-shadow: -1px -1px 22px -1px rgba(0,0,0,0.09);
+    -moz-box-shadow: -1px -1px 22px -1px rgba(0,0,0,0.09);
+
+}
+.main{
+    position: absolute;
+    left: 11%;
+    margin-top: -15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.main > p{
+    margin-top: -20px;
+    font-family: sans-serif;
+    color: #8A8D91;
+    text-align: center;
+}
+
+.box2{
+    text-align: center;
+}
+
+.box2 > input{
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 10px;
+    width: 160px;
+    border-radius: 5px;
+    border: 1px solid rgb(177, 175, 175);
+    outline: #8A8D91;
+    /* box-shadow: 1px 1px 2px #1877F2; */
+    font-size: 15px;
+    
+    
+}
+
+.long > input {
+    width: 350px;
+    margin-left: 5px;
+    padding: 11px;
+    margin-top: 10px;
+    border-radius: 5px;
+    outline: #8A8D91;
+    border: 1px solid rgb(177, 175, 175) ;
+    
+
+}
+
+
+.lefts{
+    
+    margin-left: 19px;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #8A8D91;
+    
+
+
+}
+.rite{
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* background-color: aqua; */
+    margin-left: 17px;
+}
+
+.drop{
+
+    
+    width: 118px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 6px;
+    margin-top: 1px;
+    border: 1px solid rgb(177, 175, 175) ;
+    outline:  rgb(177, 175, 175);
+    
+     
+}
+
+.gender{
+    /* width: 00px */
+    margin-top: 20px;
+    margin-left: 17px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* margin-left: 10px */
+    /* height: 10px; */
+    /* width: 100px; */
+    /* border: 2px solid green; */
+    /* justify-content: space-between; */
+
+
+    
+}
+
+.gender input{
+    width: 35px;
+}
+.gender label{
+    
+  border: 1px solid rgb(177, 175, 175) ;
+  padding: 5px;
+  
+  border-radius: 5px;
+  background-color: white;
+  margin: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* text-align: center; */
+
+   
+}
+
+.last{
+    margin-left: 17px;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #8A8D91;
+}
+
+.parap{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    /* margin-right: 30px; */
+    margin: 15px;
+    color: #8A8D91;
+}
+
+.lines{
+
+    margin-top: 70px;
+    background: #8A8D91;
+
+}
+.parap a{
+    text-decoration: none;
+    color: #0a499c;
+    
+}
+
+.link4{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* border: 2px solid #1877F2; */
+    margin-left: 125px;
+    padding: 20px;
+    width: 130px;
+    border-radius: 5px;
+    background-color: #36A420;
+    height: 17px;
+    cursor: pointer;
+}
+.link4 a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.link4:hover{
+    background-color: #2c9417;
+}
+
+
+.link5{
+
+
+    margin-top: 15px;
+    margin-left: 117px;
+   
+    
+}
+
+.link5 a{
+
+    color: #1877F2;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+
+/* signup page complete here........................................................................... */
+
+
+
+
+
+
+
+
+
+
+
+/* home page starts here.......................................................................... */
+
+.container-tops{
+    /* padding: 5px;
+    margin: 5px; */
+    height: 7%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: flex-start;
+    background-color: pink;
+}
+.navbar{
+ 
+    display: flex;
+    justify-items: center;
+    
+}
+
+.logo{
+
+    width: 80px;
+    position: fixed;
+    display: flex;
+    justify-items: center;
+    margin: 5px;
+    padding: 1px;
+
+}
+
+.searchbar{
+
+    position: fixed;
+    left: 5%;
+    /* margin-top: 11px; */
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+   
+
+}
+
+.searchbar input{
+    height: 35px;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color: #f0f2f5 ;
+    outline: #8A8D91;
+    
+    
+}
+.link6{
+    position: absolute;
+    width: 40px;
+    left: 38%;
+    display: flex;
+    justify-items: center;
+    padding: 12px;
+     
+}
+
+.link6:hover{
+    background-color: #8A8D91;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.link7{
+    position: absolute;
+    width: 50px;
+    left: 46%;
+     padding: 8px;
+    display: flex;
+    justify-items: center;
+}
+.link7:hover{
+    background-color: #8A8D91;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+.link8{
+    position: absolute;
+    width: 38px;
+    left: 54%;
+    padding: 14px;
+    display: flex;
+    justify-items: center;
+}
+.link8:hover{
+    background-color: #8A8D91;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+.link9{
+    position: absolute;
+    width: 40px;
+    left: 62%;
+    padding: 12px;
+    display: flex;
+    justify-items: center;   
+}
+
+.link9:hover{
+    background-color: #8A8D91;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.link10{
+    position: absolute;
+    width: 30px;
+    left: 84%;
+    padding: 18px;
+    display: flex;
+    justify-items: center;
+}
+.link10:hover{
+    background-color: #8A8D91;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+.link11{
+    position: absolute;
+    width: 40px;
+    left: 88%;
+    padding: 12px;
+    display: flex;
+    justify-items: center;
+}
+.link11:hover{
+    background-color: #8A8D91;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+.link12{
+
+    position: absolute;
+    width: 37px;
+    left: 92%;
+    padding: 14px;
+    display: flex;
+    justify-items: center;
+}
+.link12:hover{
+    background-color: #1877F2;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* navbar completed here.................................................................. */
+
+
+
+
+
+
+
+
+
+
+
+
+/* body start here.............................................................. */
+
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 5%;
+}
+
+
+.leftside{
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+}
+
+
+.rightside{
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+}
+
+
+
+
